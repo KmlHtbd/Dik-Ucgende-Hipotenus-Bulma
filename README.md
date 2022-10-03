@@ -12,7 +12,11 @@ public class HipotenusBulma {
         System.out.print("İkinci Dik Kenarı Giriniz:");
         b = input.nextDouble();
         c = Math.sqrt(a*a + b*b);
-        System.out.print("Hipotenüs:"+c);
+        System.out.println("Hipotenüs:"+c);
+        cevre = a + b +c;
+        System.out.println("Üçgenin Çevresi:"+cevre);
+        alan = a*b/2;
+        System.out.println("Üçgenin Alanı:"+alan);
     }
 }
 ```
