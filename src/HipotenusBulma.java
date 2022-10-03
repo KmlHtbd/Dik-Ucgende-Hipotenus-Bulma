@@ -1,14 +1,19 @@
 import java.util.Scanner;
 public class HipotenusBulma {
     public static void main(String[] args) {
-        double a,b,c;
+        double a,b,c,cevre,alan;
         Scanner input = new Scanner (System.in);
         System.out.print("Birinci Dik Kenarı Giriniz:");
         a = input.nextDouble();
         System.out.print("İkinci Dik Kenarı Giriniz:");
         b = input.nextDouble();
         c = Math.sqrt(a*a + b*b);
-        System.out.print("Hipotenüs:"+c);
+        System.out.println("Hipotenüs:"+c);
+        cevre = a + b +c;
+        System.out.println("Üçgenin Çevresi:"+cevre);
+        alan = a*b/2;
+        System.out.println("Üçgenin Alanı:"+alan);
+
 
 
 
