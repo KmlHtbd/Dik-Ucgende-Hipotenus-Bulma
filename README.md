@@ -1,5 +1,4 @@
 # Dik-Ucgende-Hipotenus-Bulma
-# KDV Tutarı Hesaplayan Program
 ---
 Bu bir [patika.dev](www.patika.dev) projesidir.
 ```
